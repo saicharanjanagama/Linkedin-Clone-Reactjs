@@ -19,7 +19,7 @@
 
 📸 **Preview:**
 <p align="center">
-  <img src="Linkedin-Clone.png" width="700" alt="LinkedIn Clone Preview"/>
+  <img src="DevConnect(Linkedin-Clone).png" width="700" alt="LinkedIn Clone Preview"/>
 </p>
 
 ---
