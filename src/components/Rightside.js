@@ -117,7 +117,7 @@ const Avatar = styled.div`
 const Recommendation = styled.div`
     display: flex;
     align-items: center;
-    color: #0a66c2;
+    color: #4f46e5;
     font-size: 14px;
 
     img {

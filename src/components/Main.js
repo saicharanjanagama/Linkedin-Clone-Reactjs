@@ -131,6 +131,7 @@ const Main = (props) => {
                     </Content>
                     <PostModal showModal={showModal} handleClick={handleClick} />
                 </Container>
+                
             )}
         </>
     )

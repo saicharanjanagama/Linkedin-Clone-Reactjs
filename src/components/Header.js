@@ -9,7 +9,7 @@ const Header = (props) => {
             <Content>
                 <Logo>
                     <a href="/home">
-                        <img src="/images/home-logo.svg" alt="" />
+                        <img src="/images/logo.svg" alt="" />
                     </a>
                 </Logo>
                 <Search>
@@ -113,6 +113,7 @@ const Content = styled.div`
 const Logo = styled.span`
     margin-right: 8px;
     font-size: 0px;
+    width: 32px;
 
     @media (max-width: 768px) {
         margin: 8px 24px;

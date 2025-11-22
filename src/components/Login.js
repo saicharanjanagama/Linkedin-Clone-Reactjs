@@ -16,7 +16,7 @@ const Login = (props) => {
                 <>
                     <Nav>
                         <a href="/">
-                            <img src="/images/login-logo.svg" alt="" />
+                            DevConnect <img src="/images/logo.svg" alt="" />
                         </a>
                         <div>
                             <Join>Join now</Join>
@@ -56,8 +56,14 @@ const Nav = styled.nav`
     flex-wrap: nowrap;
 
     & > a {
-        width: 135px;
-        height: 34px;
+        display: flex;
+        gap: .4rem;
+        font-size: 30px;
+        text-decoration: none;
+        font-weight: 800;
+        color: #4f46e5;
+        width: 30px;
+        /* height: 36px; */
 
         @media (max-width: 768px) {
             padding: 0 5px;
@@ -82,8 +88,8 @@ const Join = styled.a`
 `;
 
 const SignIn = styled.a`
-    box-shadow: inset 0 0 0 1px #0a66c2;
-    color: #0a66c2;
+    box-shadow: inset 0 0 0 1px #4f46e5;
+    color: #4f46e5;
     border-radius: 24px;
     font-size: 16px;
     font-weight: 600;
@@ -96,7 +102,7 @@ const SignIn = styled.a`
 
     &:hover {
         background-color: rgb(112, 181, 249, 0.15);
-        color: #0a66c2;
+        color: #4f46e5;
         text-decoration: none;
     }
 `;
@@ -130,7 +136,7 @@ const Hero = styled.div`
         width: 55%;
         font-size: 56px;
         font-weight: 200;
-        color: #2977c9;
+        color: #4f46e5;
         line-height: 70px;
 
         @media (max-width: 768px) {

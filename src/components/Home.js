@@ -65,7 +65,7 @@ const Section = styled.section`
     justify-content: center;
 
     h5 {
-        color: #0a66c2;
+        color: #4f46e5;
         font-size: 14px;
         text-decoration: underline;
 
